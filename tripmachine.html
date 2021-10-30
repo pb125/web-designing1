@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Tripmachine</title>
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	<style>
+		*{
+	margin: 0;
+	padding: 0;
+}
+
+	.header{
+		width: 100%;
+		height: 75px;
+		position: fixed;
+		background: white;
+		
+	}
+	.header img{
+		width: 110px;
+		height: auto;
+		margin-top: 20px;
+		margin-left: 30px;
+	}
+
+	.menu {
+		float: right;
+		margin-top: 20px;
+		margin-right: 170px;
+	}
+
+	.menu a{
+		text-decoration: none;
+		font-family: sans-serif;
+		font-weight: bold;
+		margin-right: 20px;
+		color: black;
+		font-size: 14px;
+
+	}
+
+	.menu a:hover{
+		text-decoration: underline;
+		color: darkred;
+		padding-top: 10px;
+		text-decoration: bold;
+	}
+
+
+	.banner img{
+		object-fit: cover;
+		width: 100%;
+		padding-top: 80px;
+	}
+	.cart{
+		text-decoration:none; float: right; 
+	margin-right: -523px;   
+	color: black;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-top: 20px;
+    font-size: 12px;
+	}
+
+	.img{
+		width: 222px;
+		height: 225px;
+		margin: 8px;
+		margin-top: 20px;
+		background: black;
+		display: inline-block;
+		float: left;
+	}
+
+	.img img{
+		width: 222px;
+		height: 225px;
+	}
+
+	.img p{
+		text-align: center;
+		margin-top: -120px;
+    	color: #fff;
+    	font-family: sans-serif;
+    	font-weight: 400;
+    	font-size: 17px;
+	}
+	.img a{
+		text-decoration:none;
+	}
+	.image{
+		width: 100%;
+		margin-top: 40px;
+	}
+	.btn{
+		width: 175px;
+    height: 54px;
+    border: 1px solid;
+    border-color: rgba(255,255,255,.6);
+    border-radius: 7px;
+    color: #fff;
+    background: rgba(255,255,255,.1);
+    margin-top: 40px;
+	}
+
+	.img1{
+		width: 460px;
+		height: 400px;
+		background: black;
+		display: inline-block;
+		margin-left: 15px;
+		margin-top: 130px;
+	}
+
+	.img1 img{
+		width: 460px;
+		height: 400px;
+		object-fit: cover;
+	}
+
+	.img1:hover{
+		background: transparent;
+	}
+
+	.img1 p{
+		text-align: center;
+		margin-top: -215px;
+    	color: #fff;
+    	font-family: sans-serif;
+    	font-weight: 400;
+    	font-size: 17px;}
+
+    	.search{
+    		width: 100%;
+    		height: 240px;
+    		background: black;
+    		margin-top: 50px;
+    	}
+
+    	.search h2{
+    		color: white;
+    		text-align: center;
+    		font-family: sans-serif;
+    		padding-top: 40px;
+    	}
+
+    	.search p{
+    		color: white;
+    		text-align: center;
+    		font-family: sans-serif;
+    		margin-top: 30px;
+    		font-size: 14px;
+    	}
+
+    	.search input{
+    		width: 220px;
+    		margin-left: 285px;
+    		height: 30px;
+    		margin-top: 30px;
+    		border-radius: 4px;
+    		font-size: 11px;
+    		font-family: sans-serif;
+    		padding: 2px;  
+    		padding-left: 10px;  
+    		border-color: white;
+    		background: #fff;	
+    		border: 1px solid #dce0e0;
+    		outline: none;
+    	}
+    	.btn2{
+    		width: 90px;
+    		height: 35px;
+    		margin-top: 20px;
+    		background: #4a4848;
+    		color: #fff;
+    		font-size: 15px;
+    		font-weight: 400;
+    		outline: none;
+    		border-radius: 4px;
+    		box-shadow: inset 0 -3px rgb(0 0 0 / 10%);
+    		font-family: sans-serif;
+    		border: 0;
+    		text-align: center;
+    		margin-left: 10px;
+
+    	}
+    	.btn2:hover{
+    		background: black;
+    	}
+
+    	.footer{
+    		width: 100%;
+    		height: 500px;
+    	}
+
+    	.title{
+    		margin-top: 35px;
+    		font-size: 13px;
+    		font-family: sans-serif;
+    		margin-left: 30px;
+    		letter-spacing: 1px;
+    		color: #404040;
+    		font-weight: 700;
+    		border-top: 1px solid #fdfcfa;
+    		border-bottom: 1px solid #fdfcfa;
+
+    	}
+
+    	.footer ul li
+    	{
+    		margin-top: 20px;
+    		margin-left: 30px;
+    		list-style: none outside;
+
+    	}
+
+    	.footer ul li a:hover{
+    		color: black;
+    	}
+
+    	.p1{
+    		margin-top: 20px;
+    		margin-left: 270px;
+    		list-style: none outside;
+    		font-size: 13px;
+    		font-family: sans-serif;
+    		color:#4a4848;
+    	}
+
+    	
+
+	</style>
+</head>
+<body>
+<!--header div start-->
+<div class="header">
+	<img src="https://cdn.shopify.com/s/files/1/0907/2228/files/TMC_PNG_Corrected_280x@2x.png?v=1525966954">
+	<div class="menu">
+		<a href="">GARAGE</a>
+		<a href="">PRODUCTS</a>
+		<a href="">BLOG</a>
+		<a href="">ABOUT US</a>
+		<a href=""><i class="fas fa-user"></i></a>
+		<a href=""><i class="fas fa-search"></i></a>
+		
+	
+	</div>
+	<a href="" ><i class="fas fa-shopping-cart" style="margin-right: -474px; margin-top: 20px;  color: black;width: 20px; position: relative; float:right;"></i></a>
+		<a href="" class="cart">CART</a>
+	
+</div>
+<!--header div end-->
+<!--banner div start-->
+<div class="banner">
+	<img src="https://cdn.shopify.com/s/files/1/0907/2228/files/TM_Boots_Banner_2_2048x.jpg?v=1630776223">
+</div>
+<!--banner div end-->
+<!--image div start-->
+
+<div class="img" style="margin-left:30px;">
+	<a href=""><img src="https://cdn.shopify.com/s/files/1/0907/2228/files/1_85d62396-22fb-4c0e-9972-94cf6254c03c_2048x.png?v=1598108905">
+	<p>GRIPS WRAP</p></a>
+</div>
+<div class="img">
+	<a href=""><img src="https://cdn.shopify.com/s/files/1/0907/2228/files/11_f87594f3-bd4c-46c2-9036-e1846173a87f_2048x.jpg?v=1598425134">
+	<p style="margin-top: -146px;">BACKPACKS <br>& <br>SADDLEBAGS</p></a>
+</div>
+<div class="img">
+	<a href=""><img src="https://cdn.shopify.com/s/files/1/0907/2228/files/1_82e21564-aa48-4dab-99da-6ae82e35f91f_2048x.png?v=1620898597">
+		<p>TOUR PACKS</p></a>
+</div>
+<div class="img">
+	<a href=""><img src="https://cdn.shopify.com/s/files/1/0907/2228/files/3_a4725577-4d9f-48d0-821d-53743e979928_2048x.png?v=1620901405">
+	<p>FACE MASK</p></a>
+</div>
+<div class="img" style="margin-left:30px;">
+	<a href=""><img src="https://cdn.shopify.com/s/files/1/0907/2228/files/3_d65a36ed-55dc-4b1a-964c-89571aa8f836_2048x.png?v=1598425976">
+		<p>BELTS</p></a>
+</div>
+<div class="img">
+	<a href=""><img src="https://cdn.shopify.com/s/files/1/0907/2228/files/2_687b6655-c6b1-47c8-9093-6daf49734561_2048x.png?v=1621229844">
+		<p>TANK BAGS<br>AND PHONE<br>POUCH</p></a>
+</div>
+<div class="img">
+	<a href=""><img src="https://cdn.shopify.com/s/files/1/0907/2228/files/4_649605ff-dfdf-4573-a6ee-9ee612f70067_2048x.png?v=1620898514">
+		<p>SMALL<br>LEATHER<br>GOODS</p></a>
+</div>
+<div class="img">
+	<a href=""><img src="https://cdn.shopify.com/s/files/1/0907/2228/files/14_d6eea7c7-6439-41e9-bedd-8d03c51216dd_2048x.jpg?v=1598425233">
+		<p>HEADLIGHT<br>X</p></a>
+</div>
+<!--image div end-->
+<a href="" style="text-decoration:none;"><img src="https://cdn.shopify.com/s/files/1/0907/2228/files/Untitled_design-4_2048x.png?v=1621231091" class="image">
+<p style="text-align:center; color:#fff; font-size:45px; margin-top: -300px; letter-spacing: 1px; font-weight:600; font-family: sans-serif;">HANMADE IS<br><span style="font-size:25px; font-family:sans-serif;">BETTER  MADE</span></p></a>
+<center><button class="btn"><a href="" style="text-decoration:none; color: #fff; font-size: 16px;">READ MORE</a></button></center>
+
+<div class="img1" style="margin-left:30px;">
+	<img src="https://cdn.shopify.com/s/files/1/0907/2228/files/2_afef9b3b-8390-4fb2-8e7e-0c193ab5ab3e_2048x.png?v=1598108928">
+	<p>SHOE PROTECTOR</p>
+</div>
+<div class="img1">
+	<img src="https://cdn.shopify.com/s/files/1/0907/2228/files/7_9fbd308d-432c-42a6-ac11-2969d99fa647_2048x.png?v=1598425611">
+	<p>WALLETS</p>
+</div>
+<div class="img1" style="margin-left:30px; margin-top: 20px;">
+	<img src="https://cdn.shopify.com/s/files/1/0907/2228/files/12_aac9c8bc-a51b-4b19-88e6-f0039cad3fd7_2048x.jpg?v=1598425159">
+	<p>MILITARY DUFFEL</p>
+</div>
+<div class="img1" style="margin-top:20px;">
+	<img src="https://cdn.shopify.com/s/files/1/0907/2228/files/13_edbf1d05-ffac-4766-99ae-dd9fc9c73d1a_2048x.jpg?v=1598425195">
+	<p>TOOL ROLLS</p>
+</div>
+
+<div class="search">
+	<h2>SIGN UP TO OUR NEWSLETTER</h2>
+	<p>Be the first to get updates, secret sales and more...</p>
+	<input type="text" name="" placeholder="Enter your Email Address...">
+	<button class="btn2"><a href="" style="text-decoration:none; color:#fff;">SIGN UP</a></button>
+</div>
+<div class="footer">
+	<h6 class="title">FOOTER</h6>
+	<ul>
+		<li style="margin-top: 32px;">
+			<a href="" style="text-decoration:none; color:#4a4848; font-size: 13px;font-family: sans-serif;">Search</a>
+		</li>
+		<li>
+			<a href="" style="text-decoration:none; color:#4a4848; font-size: 13px; font-family: sans-serif;">Quick Shipping Guarantee and<br><span style="padding-top:80px;">Delivery</span></a>
+		</li>
+		<li>
+			<a href="" style="text-decoration:none; color:#4a4848; font-size: 13px;font-family: sans-serif;">Return Policy</a>
+		</li>
+		<li>
+			<a href="" style="text-decoration:none; color:#4a4848; font-size: 13px;font-family: sans-serif;">Privacy Policy</a>
+		</li>
+
+		<li>
+			<a href="" style="text-decoration:none; color:#4a4848; font-size: 13px;font-family: sans-serif;">Terms & Condition</a>
+		</li>
+	</ul>
+
+	<h6 class="title" style="margin-left:270px; margin-top: -240px;">GET IN TOUCH</h6>
+	<p class="p1" style="margin-top: 30px;">Need some product guidance, have a <br>review or just want to chat</p>
+	<p class="p1">Ride in and meet us at </p>
+	<p class="p1">Trip Machine Company <br>House no. 154, Sector 31, Gurgaon,<br>Haryana</p>
+	<p class="p1">or drop in a mail at <br><span style="color: #990000;">mail@tripmachinecompany.com</span></p>
+
+    <p class="p1"><span style="color: #990000;"><span style="color: #000000;">Call Us &nbsp;or WhatsApp at</span> +91 95600 <br>30305</span></p>
+    <a href=""><i class="fab fa-twitter" style="margin-left: 270px; margin-top: 25px; color:#404040;"></i></a>
+
+    <a href=""><i class="fab fa-facebook-f" style="margin-left: 20px; margin-top: 25px; color:#404040;"></i></a>
+    <a href=""><i class="fab fa-youtube" style="margin-left: 20px; margin-top: 25px; color:#404040;"></i></a>
+    <a href=""><i class="fab fa-pinterest-p" style="margin-left: 20px; margin-top: 25px; color:#404040;"></i></a>
+    <a href=""><i class="fab fa-instagram" style="margin-left: 20px; margin-top: 25px; color:#404040;"></i></a>
+    <a href=""><i class="far fa-envelope" style="margin-left: 20px; margin-top: 25px; color:#404040;"></i></a>
+
+    <center><p style="font-family: sans-serif; font-size: 13px; margin-top: 90px;">
+        © 2021 Trip Machine. Powered by Shopify</p></center>
+
+</div>
+</body>
+</html>

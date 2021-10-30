@@ -1,0 +1,285 @@
+*{
+		margin: 0px;
+		padding: 0px;
+	}
+		.header
+		{
+			width: 100%;
+			height: 70px;
+			position: fixed;
+			background: white;
+			
+
+
+		}
+		.header img{
+			width: 152px;
+			padding-left: 152px;
+			padding-top: 16px;
+		
+		}
+
+		.banner{
+			background: url(../image/s.jpg);
+			width: 100%;
+			height: 500px;
+			background-size: cover;
+			background-attachment: fixed;
+			
+			
+		}
+		
+		.menu 
+		{
+			float: right;
+			margin-right: 75px;
+			text-decoration: none;
+			margin: 20px;
+
+		}
+		.menu a{
+			margin: 15px;
+			text-decoration: none;
+			/*padding-right: 30px;*/
+			color: #d70f64;
+			line-height: 32px;
+			font-family: sans-serif;
+
+		}
+		.content{
+			font-size: 42px;
+			padding-top: 220px;
+			text-align: center;
+			text-transform: uppercase;
+			color: aliceblue;
+			font-family: sans-serif;
+			font-weight: normal;
+
+
+		}
+		.flag{
+			width: 100%;
+			height: 110px;
+			background: #5d595a75;
+			margin-top: 65px;
+		
+
+		}
+		.flag p{
+			color: white;
+			font-family: sans-serif;
+			font-size: 12px;
+			padding-left: 30px;
+			font-weight: 800;
+			text-transform: uppercase;
+			flex: 1;
+			padding-top: 15px;
+		}
+		.flag img{
+			width: 50px;
+			height: 32px;
+			margin-left: 13px;
+			border radius: 3px;
+			margin-top: -500px
+
+
+		}
+
+		.about h2{
+			text-align: center;
+			font-size: 30px;
+			font-family: sans-serif;
+			padding-top: 120px;
+			font-weight: 400;
+			text-transform: uppercase;
+			letter-spacing: 1px;
+			color: #d70f64;
+			margin-bottom: 35px;
+
+		}
+		.about p{
+			font-size: 18px;
+			line-height: 1.6;
+			text-align: center;
+			font-family: sans-serif;
+			font-weight: 300;
+			margin-bottom: 35px;
+			color: #333434;
+		}
+
+		.btn{
+			
+			
+			width: 180px;
+			height: 50px;
+			text-transform: uppercase;
+			
+			text-align: center;
+			background:  #d70f64;
+			color: white;
+			margin-bottom: 30px;
+			border: inherit;
+			border-radius: 0;
+			padding: 20px;
+			background-attachment: fixed;
+		}
+
+		.banner1{
+			background: url(../image/7777.jpg);
+			width: 100%;
+			height: 500px;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		.banner1 h2{
+			text-align: center;
+			font-size: 30px;
+			font-family: sans-serif;
+			padding-top: 120px;
+			font-weight: 400;
+			text-transform: uppercase;
+			letter-spacing: 1px;
+			color: #d70f64;
+			margin-bottom: 35px;
+		}
+		.banner1 p{
+			font-size: 18px;
+			line-height: 1.6;
+			text-align: center;
+			font-family: sans-serif;
+			font-weight: 300;
+			margin-bottom: 35px;
+			color: aliceblue;
+		}
+
+		.btn1{width: 180px;
+			height: 50px;
+			text-transform: uppercase;
+			
+			text-align: center;
+			background:  #d70f64;
+			color: white;
+			margin-bottom: 30px;
+			border: inherit;
+			border-radius: 0;
+			padding: 20px;
+			background-attachment: fixed;
+
+		}
+
+		.banner2{
+			background: url(../image/78.jpg);
+			width: 100%;
+			height: 500px;
+			background-size: cover;
+			background-attachment: fixed;
+
+		}
+		.banner2 h2{
+			text-align: center;
+			font-size: 30px;
+			font-family: sans-serif;
+			padding-top: 120px;
+			font-weight: 400;
+			text-transform: uppercase;
+			letter-spacing: 1px;
+			color: #d70f64;
+			margin-bottom: 35px;
+		}
+		.banner2 p{
+			font-size: 18px;
+			line-height: 1.6;
+			text-align: center;
+			font-family: sans-serif;
+			font-weight: 300;
+			margin-bottom: 35px;
+			color: aliceblue;
+		}
+
+		.btn2{width: 180px;
+			height: 50px;
+			text-transform: uppercase;
+			
+			text-align: center;
+			background:  #d70f64;
+			color: white;
+			margin-bottom: 30px;
+			border: inherit;
+			border-radius: 0;
+			padding: 20px;
+			background-attachment: fixed;
+		}
+
+		.contact{
+			width: 100%;
+			height: 400px;
+			background:#d70f64;
+
+		}
+		.contact h2{
+			text-align: center;
+			font-size: 30px;
+			font-family: sans-serif;
+			padding-top: 120px;
+			font-weight: 400;
+			text-transform: uppercase;
+			letter-spacing: 1px;
+			color: whitesmoke;
+			margin-bottom: 35px;
+		}
+
+		.contact p{
+			font-size: 18px;
+			line-height: 1.6;
+			text-align: center;
+			font-family: sans-serif;
+			font-weight: 300;
+			margin-bottom: 35px;
+			color: aliceblue;
+		}
+		.btn3{width: 180px;
+			height: 50px;
+			text-transform: uppercase;
+			
+			text-align: center;
+			background:  white;
+			color: #d70f64;
+			margin-bottom: 30px;
+			border: inherit;
+			border-radius: 0;
+			padding: 20px;
+			background-attachment: fixed;
+		}
+		.footer img{
+			max-width: 250px;
+
+			height: 40px;
+			padding-left: 60px;
+			padding-top: 14px;
+		}
+		.footer p{
+			margin-left: 63px;
+		}
+
+		.img12{
+			float: right;
+			width: 50px;
+			margin-top: -66px;
+			margin-right: 77px;
+		}
+		.footer-upper {
+			float: right;
+			
+		}
+		.footer-upper a{
+			text-decoration: none;
+			font-family: sans-serif;
+			color:  #333;
+			margin-top: 10px;
+			margin-right: 10px;
+			padding-top: 10px;
+			padding-bottom: 40px;
+		}
+		.footer-upper a:hover{
+			color: #d70f64;
+		}
